@@ -1,0 +1,32 @@
+{
+  "initialSignUp": {
+    "name": "maged7",
+    "email": "test1900@test1980.com"
+  },
+  "fullInforegistration": {
+    "firstName": "maged",
+    "lastName": "waleed",
+    "password": "test123456",
+    "dayOfBirth": "14",
+    "monthOfBirth": "8",
+    "yearOfBirth": "2002",
+    "companyName": "Giza Systems",
+    "address1": "rehab",
+    "address2": "rehab2",
+    "country": "United States",
+    "state": "texas",
+    "city": "ay haga",
+    "zipCode": "12323",
+    "mobileNumber": "01066225160"
+  },
+
+  "validLogin": {
+    "email": "test1900@test1980.com",
+    "password": "test123456"
+  },
+
+  "invalidLogin": {
+    "email": "invalidtest@invalidtest.com",
+    "password": "test12345346"
+  }
+}

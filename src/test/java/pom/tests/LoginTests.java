@@ -66,7 +66,7 @@ public class LoginTests {
 
     @BeforeMethod
     public void MethodSetup(){
-        driver = new ChromeDriver();
+        driver = DriverFactory.initiateDriver();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
